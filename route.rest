@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+### //seperate to different requests
+
+GET http://localhost:3000/subscribers/6175704384aab8afc74b515c
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name" : "Agnika Routh",
+    "location" : "Nice, Fr",
+    "age" : 50
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/6175704384aab8afc74b515c
+
+###
+
+PATCH  http://localhost:3000/subscribers/61758074f03115101d797b8c
+Content-Type: application/json
+
+{
+    "location" : "NYC"
+}
