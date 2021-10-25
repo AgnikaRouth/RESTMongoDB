@@ -8,3 +8,7 @@ Build REST API with MongoDB and Express
 3. Setup a REST API with MongoDB and Node.js
 
 
+### Sample Screenshot
+
+
+![RESTClient_ss3](https://user-images.githubusercontent.com/45993797/138674544-c86f9fbb-0300-48d6-a714-c385440881e9.jpg)
